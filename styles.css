@@ -42,6 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 50px;
 }
 
 .heroSlogan {
@@ -66,6 +67,10 @@ body {
   color: rgba(25, 25, 25, 0.7);
 }
 
+.heroImage {
+  margin-top: 175px;
+}
+
 .logos {
   width: 1320px;
   height: 88px;
@@ -76,7 +81,6 @@ body {
   height: 48px;
   border-color: transparent;
   border-radius: 40px;
-
   background: #f9d783;
 }
 
