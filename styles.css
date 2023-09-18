@@ -351,12 +351,9 @@ body {
   height: 870px;
   background: #f0efe9;
 }
-.serviceText {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-}
+
 .serviceSubText {
+  margin-left: 300px;
   font-family: "Inter";
   font-size: 18px;
   font-weight: 500;
@@ -365,7 +362,12 @@ body {
   text-align: left;
   color: #f94d1c;
 }
+
 .serviceTitle {
+  display: flex;
+  justify-self: center;
+  margin-left: 300px;
+  justify-content: flex-start;
   font-family: "DM Sans";
   font-size: 45px;
   font-weight: bold;
@@ -374,6 +376,13 @@ body {
   text-align: left;
   color: #191919;
 }
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
 .serviceCards {
   display: flex;
   flex-direction: row;
@@ -396,19 +405,23 @@ body {
   filter: drop-shadow(0px 18px 20px rgba(44, 44, 44, 0.15));
 }
 .serviceCardLine {
-  position: absolute;
-  top: 100%;
-  right: 60%;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 .serviceCardTitle {
+  margin-left: 20px;
 }
 .serviceCardText {
+  margin-left: 20px;
 }
 
 .serviceCardButton {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-end;
+  margin-top: 100px;
+  margin-left: 200px;
   width: 56px;
   height: 56px;
   border-color: transparent;
@@ -416,6 +429,11 @@ body {
   background: #191919;
 }
 .serviceCardButtonOrange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 200px;
   width: 56px;
   height: 56px;
   border-color: transparent;
@@ -439,6 +457,10 @@ body {
 }
 
 .elementServices {
+  position: absolute;
+  display: flex;
+  margin-top: 660px;
+  align-self: flex-end;
 }
 .serviceCardArrow {
   transform: rotate(30deg);
