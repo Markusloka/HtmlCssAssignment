@@ -554,3 +554,87 @@ body {
   height: 425px;
   background: #f0efe9;
 }
+
+.Projects{
+  display: flex;
+  flex-direction: column;
+  height: 1271.6px;
+  justify-content: center;
+}
+
+.projectsText{
+
+
+}
+
+.projectsSub{
+  width: 192px;
+height: 21px;
+
+
+font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+font-style: normal;
+text-align: center;
+color: #f94d1c;
+
+}
+
+.projectsTitle{
+  width: 882.9px;
+height: 52px;
+
+
+font-family: "DM Sans";
+font-size: 45px;
+font-weight: bold;
+line-height: 55px;
+font-style: normal;
+text-align: center;
+color: #191919;
+
+}
+
+.projectsCluster{
+  
+
+}
+.Project{
+
+}
+
+.projectName{
+  width: 645px;
+height: 26px;
+
+
+font-family: "DM Sans";
+font-size: 22px;
+font-weight: bold;
+line-height: 33px;
+font-style: normal;
+text-align: left;
+color: #191919;
+
+}
+
+.projectLine{
+
+}
+.projectsButton{
+
+}
+
+.projectButton{
+height: 56px;
+border-radius: 40px;
+background: #191919
+}
+
+
+
+
+
+
