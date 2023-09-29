@@ -595,12 +595,6 @@ body {
 .projectsCluster {
 }
 
-.projectTop {
-  display: flex;
-}
-.projectBottom {
-  display: flex;
-}
 .projectName {
   width: 645px;
   height: 26px;
@@ -616,6 +610,13 @@ body {
 .projectLine {
 }
 .projectsButton {
+  width: 124px;
+  height: 44px;
+
+  border-radius: 40px;
+  border-color: transparent;
+
+  background: #ffffff;
 }
 
 .projectButton {
@@ -627,7 +628,7 @@ body {
   color: #b4b3ad;
 }
 
-.Parent {
+.Project {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
